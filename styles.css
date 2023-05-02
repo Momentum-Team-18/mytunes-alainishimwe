@@ -1,0 +1,28 @@
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: color;
+ 
+    
+}
+
+.songCard {
+    display: flex;
+    flex-direction: column; 
+    background-color: purple;
+    align-items: center;
+    flex: auto 1 1; 
+    
+}
+
+.songName {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+.image {
+  /* flex: auto 1 1;  */
+  background-color: yellow; 
+  width: 120px; 
+} 
