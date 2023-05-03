@@ -33,9 +33,16 @@ searchForm.addEventListener("submit", (event) => {
                 let songCard = document.createElement('div')
                 let songImage = document.createElement('img')
                 let songName = document.createElement ('h3')
-                songImage.src = song.artworkUrl100
+                let songAudio = document.createElement('audio')
+                    songAudio.controls = 'controls'
+                let songSource = document.createElement('source')
+                    songSource.src = song.previewUrl
+                    songAudio.appendChild(songSource)
+                    songImage.src = song.artworkUrl100
                 //console.log(songImage)
+                console.log(songAudio)
                 songCard.appendChild(songImage)
+                songCard.appendChild(songAudio)
                 songCard.classList.add("songCard")
                 songImage.classList.add("image")
     

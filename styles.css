@@ -9,9 +9,9 @@
 .songCard {
     display: flex;
     flex-direction: column; 
-    background-color: purple;
-    align-items: center;
-    flex: auto 1 1; 
+    /* background-color: purple;
+    align-items: center; */
+    flex: auto 1 1;  
     
 }
 
@@ -24,5 +24,7 @@
 .image {
   /* flex: auto 1 1;  */
   background-color: yellow; 
-  width: 120px; 
+  width: 300px; 
+  height: 300px;
+  border-radius: 5%;
 } 

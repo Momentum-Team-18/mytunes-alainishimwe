@@ -4,20 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
 <title>Music Search</title>
 </head>
 <body>
-  <div id="mainContainer"> 
+  <div id="NotMainContainer"> 
   <form class="block" action="" id="search-form">
     <div class="search-field block">
-      <label for="search-field">Artist Search</label>
-      <input type="text" name="search-field" id="search-field">
-    </div>
-    <button class="searchButton" type="submit">Submit</button>
-    <button class="clearButton">Clear</button>
+      <!-- <label for="search-field">Artist Search</label> -->
+      <input type="text" name="search-field" id="search-field" class="input is-rounded" placeholder="Search Artist name">
+    
+    <button class="searchButton button is-primary is-rounded" type="submit">Search</button>
+    <button class="clearButton button is-danger is-rounded">Clear</button>
+  </div>
   </form>
-
+  </div>
+  <div id="mainContainer" >
 
   </div>
 
